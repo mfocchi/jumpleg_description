@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 5.1.6.2 (Linux)"/>
+	<meta name="created" content="00:00:00"/>
+	<meta name="changed" content="2022-04-07T20:17:15.592208385"/>
+</head>
+<body lang="en-US" dir="ltr">
+<p style="margin-bottom: 0in">      &lt;link name=&quot;world_link&quot;/&gt;</p>
+<p style="margin-bottom: 0in"><br/>
+
+</p>
+<p style="margin-bottom: 0in">      &lt;joint name=&quot;base_x_joint&quot;
+type=&quot;prismatic&quot;&gt;</p>
+<p style="margin-bottom: 0in">            &lt;parent
+link=&quot;world_link&quot;/&gt;</p>
+<p style="margin-bottom: 0in">            &lt;child
+link=&quot;fake_link1&quot;/&gt;</p>
+<p style="margin-bottom: 0in">            &lt;axis xyz=&quot;1 0 0
+&quot;/&gt;</p>
+<p style="margin-bottom: 0in">            &lt;limit effort=&quot;150&quot;
+velocity=&quot;100.0&quot; lower=&quot;-100&quot; upper=&quot;100&quot;/&gt;</p>
+<p style="margin-bottom: 0in">      &lt;/joint&gt;</p>
+<p style="margin-bottom: 0in"><br/>
+
+</p>
+<p style="margin-bottom: 0in">       &lt;link name=&quot;fake_link1&quot;&gt;</p>
+<p style="margin-bottom: 0in">            &lt;inertial&gt;</p>
+<p style="margin-bottom: 0in">            &lt;mass value=&quot;0.00001&quot;/&gt;</p>
+<p style="margin-bottom: 0in">            &lt;inertia ixx=&quot;5.8083e-4&quot;
+ixy=&quot;0&quot; ixz=&quot;0&quot; iyy=&quot;3.0833e-5&quot; iyz=&quot;0&quot;
+izz=&quot;5.9083e-4&quot;/&gt;</p>
+<p style="margin-bottom: 0in">          &lt;/inertial&gt;</p>
+<p style="margin-bottom: 0in">        &lt;/link&gt;     
+</p>
+<p style="margin-bottom: 0in">       
+</p>
+<p style="margin-bottom: 0in">      &lt;joint name=&quot;base_y_joint&quot;
+type=&quot;prismatic&quot;&gt;</p>
+<p style="margin-bottom: 0in">            &lt;parent
+link=&quot;fake_link1&quot;/&gt;</p>
+<p style="margin-bottom: 0in">            &lt;child
+link=&quot;fake_link2&quot;/&gt;</p>
+<p style="margin-bottom: 0in">            &lt;axis xyz=&quot;0 1 0
+&quot;/&gt;</p>
+<p style="margin-bottom: 0in">            &lt;origin xyz=&quot;0 0 0&quot;
+rpy=&quot;0 0 0&quot;/&gt;</p>
+<p style="margin-bottom: 0in">            &lt;limit effort=&quot;150&quot;
+velocity=&quot;100.0&quot; lower=&quot;-100&quot; upper=&quot;100&quot;/&gt;</p>
+<p style="margin-bottom: 0in">      &lt;/joint&gt;                 
+</p>
+<p style="margin-bottom: 0in">                
+</p>
+<p style="margin-bottom: 0in">       &lt;link name=&quot;fake_link2&quot;&gt;</p>
+<p style="margin-bottom: 0in">            &lt;inertial&gt;</p>
+<p style="margin-bottom: 0in">            &lt;mass value=&quot;0.00001&quot;/&gt;</p>
+<p style="margin-bottom: 0in">            &lt;inertia ixx=&quot;5.8083e-4&quot;
+ixy=&quot;0&quot; ixz=&quot;0&quot; iyy=&quot;3.0833e-5&quot; iyz=&quot;0&quot;
+izz=&quot;5.9083e-4&quot;/&gt;</p>
+<p style="margin-bottom: 0in">          &lt;/inertial&gt;</p>
+<p style="margin-bottom: 0in">        &lt;/link&gt; 
+</p>
+<p style="margin-bottom: 0in"><br/>
+
+</p>
+<p style="margin-bottom: 0in">      &lt;joint name=&quot;base_z_joint&quot;
+type=&quot;prismatic&quot;&gt;</p>
+<p style="margin-bottom: 0in">            &lt;parent
+link=&quot;fake_link2&quot;/&gt;</p>
+<p style="margin-bottom: 0in">            &lt;child
+link=&quot;base_link&quot;/&gt;</p>
+<p style="margin-bottom: 0in">            &lt;axis xyz=&quot;0 0 1
+&quot;/&gt;</p>
+<p style="margin-bottom: 0in">            &lt;origin xyz=&quot;0 0 0&quot;
+rpy=&quot;0 0 0&quot;/&gt;</p>
+<p style="margin-bottom: 0in">            &lt;limit effort=&quot;150&quot;
+velocity=&quot;100.0&quot; lower=&quot;-100&quot; upper=&quot;100&quot;/&gt;</p>
+<p style="margin-bottom: 0in">      &lt;/joint&gt;                 
+</p>
+</body>
+</html>

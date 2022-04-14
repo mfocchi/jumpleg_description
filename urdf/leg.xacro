@@ -4,8 +4,8 @@
 <robot xmlns:xacro="http://ros.org/wiki/xacro" name="jumpleg">
 
     <!-- Things that are needed only for Gazebo (not the physical robot). These include sensor and controller plugin specifications -->
-    <xacro:include filename="$(find jumpleg_description)/urdfs/leg.transmission.xacro"/>
-    <xacro:include filename="$(find jumpleg_description)/urdfs/leg.gazebo.xacro"/>
+    <xacro:include filename="$(find jumpleg_description)/urdf/leg.transmission.xacro"/>
+    <xacro:include filename="$(find jumpleg_description)/urdf/leg.gazebo.xacro"/>
 
 
     <!-- These are absoulte distance value, the sign are decided below -->

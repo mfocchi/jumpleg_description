@@ -10,7 +10,7 @@
         <xacro:arg name="task_period" value="$(arg task_period)"/>
     </xacro:include>
 
-    <xacro:include filename="$(find jumpleg_description)/urdfs/floatingbase.transmission.xacro"/>
+    <xacro:include filename="$(find jumpleg_description)/urdf/floatingbase.transmission.xacro"/>
 
 	 <link name="world"/>
 
@@ -105,7 +105,7 @@
 
 
     <!-- Include the legs -->
-    <xacro:include filename="$(find jumpleg_description)/urdfs/leg.xacro"/>
+    <xacro:include filename="$(find jumpleg_description)/urdf/leg.xacro"/>
 
 
     <!-- LEFT FRONT LEG -->

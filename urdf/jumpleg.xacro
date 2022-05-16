@@ -19,7 +19,7 @@
 		<child link="fake_link1"/>
 		<axis xyz="1 0 0 "/>
 		<origin xyz="0 0 0" rpy="0 0 0"/>
-		<limit effort="150" velocity="100.0" lower="-100" upper="100"/>
+		<limit effort="1000" velocity="100.0" lower="-100" upper="100"/>
 
 	</joint> 
 
@@ -37,7 +37,7 @@
 		<child link="fake_link2"/>
 		<axis xyz="0 1 0 "/>
 		<origin xyz="0 0 0" rpy="0 0 0"/>
-		<limit effort="150" velocity="100.0" lower="-100" upper="100"/>
+		<limit effort="1000" velocity="100.0" lower="-100" upper="100"/>
 
 	</joint> 
 
@@ -54,7 +54,7 @@
 		<child link="base_link"/>
 		<axis xyz="0 0 1 "/>
 		<origin xyz="0 0 0" rpy="0 0 0"/>
-		<limit effort="150" velocity="100.0" lower="-100" upper="100"/>
+		<limit effort="1000" velocity="100.0" lower="-100" upper="100"/>
 
 	</joint> 
 

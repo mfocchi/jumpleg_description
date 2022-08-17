@@ -6,7 +6,6 @@
     <!-- Things that are needed only for Gazebo (not the physical robot). These include sensor and controller plugin specifications -->
     <xacro:include filename="$(find jumpleg_description)/urdf/leg.transmission.xacro"/>
     <xacro:include filename="$(find jumpleg_description)/urdf/leg.gazebo.xacro"/>
-    <xacro:include filename="$(find jumpleg_description)/urdf/commons.xacro"/>
 
 
     <!-- These are absoulte distance value, the sign are decided below -->

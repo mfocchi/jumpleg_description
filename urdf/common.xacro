@@ -16,7 +16,7 @@
 
     <!-- torque limits -->
 
-    <xacro:property name="MAX_TORQUE" value="1000" />
+    <xacro:property name="MAX_TORQUE" value="10" />
 
 
 </robot>

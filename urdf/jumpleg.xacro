@@ -12,6 +12,11 @@
 
     <xacro:include filename="$(find jumpleg_description)/urdf/floatingbase.transmission.xacro"/>
 
+
+
+    <!-- The following included files set up definitions of parts of the robot body -->
+    <xacro:include filename="$(find jumpleg_description)/urdf/common.xacro"/>
+
 	 <link name="world"/>
 
  	<joint name="base_x_joint" type="prismatic">

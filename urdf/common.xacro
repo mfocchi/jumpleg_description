@@ -14,6 +14,14 @@
     <xacro:property name="kfe_max" value="6.45771823"/>
     <xacro:property name="kfe_min" value="-6.45771823"/>
 
+
+    <xacro:property name="haa_max_soft" value="2.43"/>
+    <xacro:property name="haa_min_soft" value="-1.25"/>
+
+    <xacro:property name="hfe_max_soft" value="1.53"/>
+    <xacro:property name="hfe_min_soft" value="-3.8"/>
+
+
     <!-- torque limits -->
 
     <xacro:property name="MAX_TORQUE" value="10" />

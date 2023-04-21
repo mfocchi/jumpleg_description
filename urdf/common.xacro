@@ -24,7 +24,7 @@
 
     <!-- torque limits real should be 1.57-->
 
-    <xacro:property name="MAX_TORQUE" value="5." />
+    <xacro:property name="MAX_TORQUE" value="8." />
 
 
 </robot>
